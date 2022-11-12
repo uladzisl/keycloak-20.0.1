@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="@memory-leak-keycloak.cpcfl7qeirs6.eu-west-2.rds.amazonaws.com" uuid="1d782c1f-53b6-47af-b268-0df40f58c19a">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://memory-leak-keycloak.cpcfl7qeirs6.eu-west-2.rds.amazonaws.com:3306</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="keycloak_schema@memory-leak-keycloak.cpcfl7qeirs6.eu-west-2.rds.amazonaws.com" uuid="4aeaf359-1d1f-4f2e-b13e-f72769f4c7de">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://memory-leak-keycloak.cpcfl7qeirs6.eu-west-2.rds.amazonaws.com:3306/keycloak_schema</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+  </component>
+</project>
